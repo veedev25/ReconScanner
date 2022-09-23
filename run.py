@@ -60,6 +60,12 @@ os.system('python insert.py {}'.format(url))
 
 sleep(4)
 
+#Nuclei_scan
+os.system(f"bash modules/nuclei.sh {url}")
+os.system('python insert.py {}'.format(url))
+
+sleep(4)
+
 #8_dirbrute
 os.system(f"bash modules/dirb.sh {url}")
 os.system('python insert.py {}'.format(url))

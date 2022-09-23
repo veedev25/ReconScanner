@@ -14,6 +14,7 @@ printf "4  - FIREWALL DETECTION\n" >> /app/results/$url-output.txt
 printf "5  - WEBDAV FILE UPLOAD TEST\n" >> /app/results/$url-output.txt
 printf "6  - ROBOTS.TXT CHECKER\n" >> /app/results/$url-output.txt
 printf "7  - SUBDOMAINS\n" >> /app/results/$url-output.txt
+printf "7  - NUCLIE SCAN\n" >> /app/results/$url-output.txt
 printf "8  - DIRECTORY BRUTE\n" >> /app/results/$url-output.txt
 printf "9  - JS FINDER + LINK FINDER\n" >> /app/results/$url-output.txt
 printf "10 - SUBDOMAINS TAKEOVER CHECK\n" >> /app/results/$url-output.txt
